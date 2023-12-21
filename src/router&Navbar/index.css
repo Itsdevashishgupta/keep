@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+a{
+    color: #61dafb;
+}
+a.active{
+    color: aliceblue;
+    border-bottom: 1px solid red;
+ }
+ .menu_style{
+    display: flex;
+    width: 100%;
+    background-color: #20232a;
+    justify-content: space-around;
+    line-height: 60px;
+ }
+ .search{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+ }
+ .search input{
+    margin: 30px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Caprasimo', cursive;
+ }

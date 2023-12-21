@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Josefin Sans","Arial Narrow",Arial, sans-serif;
+}
+.head{
+width: 100%;
+background-color: #fbd034;
+height: 11vh;
+display: flex;
+flex-direction: row;
+}
+.head h1{
+    margin-top: 18px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Caprasimo', cursive;
+}
+.main_note{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 3%;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+}
+form{
+   height: 30vh;
+   flex-direction: column;
+   display: flex;
+   width: 27%;
+   font-family: 'Montserrat', sans-serif;
+   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+   padding: 15px 40px 10px 10px;
+   border-radius: 15px;
+}
+form input{
+  outline: none;
+  border: none;
+  font-size: 23px;
+  font-weight: 1000;
+}
+form textarea{
+    margin-top: 10px;
+  outline: none;
+  border: none;
+  resize: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+form button{
+    color: #fff;
+   height: 100px;
+}
+.plus{
+    color: #fbd034;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    height: 10px;
+}
+.plus:hover{
+   background-color: #fbd034;
+   color: #fff;
+}
+ .note{
+   width: 20%;
+   height: auto;
+   background-color: #FFFFFF;
+   box-shadow: 5px 5px 25px -7px rgba(0,0,0,0.5);
+   transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+   border-radius: 12px;
+   float: left;
+   margin: 6%;
+   font-family: 'Montserrat', sans-serif;
+   padding: 5px 5px 5px 7px;
+}
+.note:hover{
+   box-shadow: opx 30px 18px -8px rgba(0,0,0,0.1);
+   transform: scale(1.05,1.05);
+}
+.note h1{
+ font-family: 'Montserrat', sans-serif;
+ font-size: 25px;
+ font-weight: 900;
+}
+.note p{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+}
+.deleteicon{
+    color: #fbd034;
+   
+}
+.deleteicon:hover{
+   color: red;
+}
+.footer{
+   bottom: 0;
+   width: 100%; 
+   position: absolute;
+   text-align: center;
+}
+
